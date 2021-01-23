@@ -14,10 +14,10 @@ import (
 	vbytespool "v2ray.com/core/common/bytespool"
 	vrouting "v2ray.com/core/features/routing"
 
-	"github.com/eycorsican/go-tun2socks/common/log"
-	"github.com/eycorsican/go-tun2socks/core"
-	"github.com/eycorsican/go-tun2socks/filter"
-	"github.com/eycorsican/go-tun2socks/proxy/v2ray"
+	"github.com/kiarsy/go-tun2socks/common/log"
+	"github.com/kiarsy/go-tun2socks/core"
+	"github.com/kiarsy/go-tun2socks/filter"
+	"github.com/kiarsy/go-tun2socks/proxy/v2ray"
 )
 
 func init() {

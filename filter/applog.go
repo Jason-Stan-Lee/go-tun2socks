@@ -4,9 +4,9 @@ import (
 	"io"
 	"net"
 
-	"github.com/eycorsican/go-tun2socks/common/log"
-	"github.com/eycorsican/go-tun2socks/common/lsof"
-	"github.com/eycorsican/go-tun2socks/common/packet"
+	"github.com/kiarsy/go-tun2socks/common/log"
+	"github.com/kiarsy/go-tun2socks/common/lsof"
+	"github.com/kiarsy/go-tun2socks/common/packet"
 )
 
 // A filter to log information about the application which sends this data segment.

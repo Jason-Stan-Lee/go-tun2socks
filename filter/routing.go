@@ -10,9 +10,9 @@ import (
 	vsession "v2ray.com/core/common/session"
 	vrouting "v2ray.com/core/features/routing"
 
-	"github.com/eycorsican/go-tun2socks/common/log"
-	"github.com/eycorsican/go-tun2socks/common/packet"
-	"github.com/eycorsican/go-tun2socks/common/route"
+	"github.com/kiarsy/go-tun2socks/common/log"
+	"github.com/kiarsy/go-tun2socks/common/packet"
+	"github.com/kiarsy/go-tun2socks/common/route"
 )
 
 type routingFilter struct {
