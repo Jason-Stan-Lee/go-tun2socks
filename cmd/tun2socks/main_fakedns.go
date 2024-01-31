@@ -1,3 +1,4 @@
+//go:build fakedns
 // +build fakedns
 
 package main
@@ -5,7 +6,7 @@ package main
 import (
 	"flag"
 
-	"github.com/kiarsy/go-tun2socks/common/dns/fakedns"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/dns/fakedns"
 )
 
 func init() {

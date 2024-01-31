@@ -9,9 +9,9 @@ import (
 
 	"github.com/miekg/dns"
 
-	cdns "github.com/kiarsy/go-tun2socks/common/dns"
-	"github.com/kiarsy/go-tun2socks/common/log"
-	"github.com/kiarsy/go-tun2socks/core"
+	cdns "github.com/Jason-Stan-Lee/go-tun2socks/v2/common/dns"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/log"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/core"
 )
 
 const (

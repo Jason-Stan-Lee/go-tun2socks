@@ -1,10 +1,11 @@
+//go:build redirect
 // +build redirect
 
 package main
 
 import (
-	"github.com/kiarsy/go-tun2socks/core"
-	"github.com/kiarsy/go-tun2socks/proxy/redirect"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/core"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/proxy/redirect"
 )
 
 func init() {

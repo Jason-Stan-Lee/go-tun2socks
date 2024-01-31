@@ -1,3 +1,4 @@
+//go:build v2ray
 // +build v2ray
 
 package main
@@ -8,13 +9,13 @@ import (
 	"io/ioutil"
 	"strings"
 
-	vcore "v2ray.com/core"
-	vproxyman "v2ray.com/core/app/proxyman"
-	vbytespool "v2ray.com/core/common/bytespool"
+	vcore "github.com/v2fly/v2ray-core/v5"
+	vproxyman "github.com/v2fly/v2ray-core/v5/app/proxyman"
+	vbytespool "github.com/v2fly/v2ray-core/v5/common/bytespool"
 
-	"github.com/kiarsy/go-tun2socks/common/log"
-	"github.com/kiarsy/go-tun2socks/core"
-	"github.com/kiarsy/go-tun2socks/proxy/v2ray"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/log"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/core"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/proxy/v2ray"
 )
 
 func init() {

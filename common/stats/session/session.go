@@ -13,8 +13,8 @@ import (
 	"golang.org/x/text/language"
 	"golang.org/x/text/message"
 
-	"github.com/kiarsy/go-tun2socks/common/log"
-	"github.com/kiarsy/go-tun2socks/common/stats"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/log"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/stats"
 )
 
 const maxCompletedSessions = 50

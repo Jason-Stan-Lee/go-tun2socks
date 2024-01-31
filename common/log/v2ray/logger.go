@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	vlog "v2ray.com/core/common/log"
+	vlog "github.com/v2fly/v2ray-core/v5/common/log"
 
-	"github.com/kiarsy/go-tun2socks/common/log"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/log"
 )
 
 type v2rayLogger struct {

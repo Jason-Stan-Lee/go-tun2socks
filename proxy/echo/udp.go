@@ -3,8 +3,8 @@ package echo
 import (
 	"net"
 
-	"github.com/kiarsy/go-tun2socks/common/log"
-	"github.com/kiarsy/go-tun2socks/core"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/log"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/core"
 )
 
 // An echo server, do nothing but echo back data to the sender.

@@ -5,9 +5,9 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/kiarsy/go-tun2socks/common/log"
-	"github.com/kiarsy/go-tun2socks/common/lsof"
-	"github.com/kiarsy/go-tun2socks/core"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/log"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/lsof"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/core"
 )
 
 // This handler allows you chain another proxy behind tun2socks locally, typically a rule-based proxy client, e.g. V2Ray.

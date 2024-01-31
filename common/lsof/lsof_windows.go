@@ -1,3 +1,4 @@
+//go:build windows
 // +build windows
 
 package lsof
@@ -8,7 +9,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	win "github.com/kiarsy/go-tun2socks/common/lsof/windows"
+	win "github.com/Jason-Stan-Lee/go-tun2socks/v2/common/lsof/windows"
 )
 
 func GetCommandNameBySocket(network string, addr string, port uint16) (string, error) {

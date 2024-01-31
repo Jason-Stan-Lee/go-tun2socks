@@ -1,10 +1,11 @@
+//go:build echo
 // +build echo
 
 package main
 
 import (
-	"github.com/kiarsy/go-tun2socks/core"
-	"github.com/kiarsy/go-tun2socks/proxy/echo"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/core"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/proxy/echo"
 )
 
 func init() {

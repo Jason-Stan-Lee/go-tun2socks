@@ -10,13 +10,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/kiarsy/go-tun2socks/common/dns"
-	"github.com/kiarsy/go-tun2socks/common/log"
-	_ "github.com/kiarsy/go-tun2socks/common/log/simple" // Register a simple logger.
-	"github.com/kiarsy/go-tun2socks/common/stats"
-	"github.com/kiarsy/go-tun2socks/core"
-	"github.com/kiarsy/go-tun2socks/filter"
-	"github.com/kiarsy/go-tun2socks/tun"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/dns"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/log"
+	_ "github.com/Jason-Stan-Lee/go-tun2socks/v2/common/log/simple" // Register a simple logger.
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/stats"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/core"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/filter"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/tun"
 )
 
 var version = "undefined"

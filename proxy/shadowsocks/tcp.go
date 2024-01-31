@@ -10,9 +10,9 @@ import (
 	sscore "github.com/shadowsocks/go-shadowsocks2/core"
 	sssocks "github.com/shadowsocks/go-shadowsocks2/socks"
 
-	"github.com/kiarsy/go-tun2socks/common/dns"
-	"github.com/kiarsy/go-tun2socks/common/log"
-	"github.com/kiarsy/go-tun2socks/core"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/dns"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/log"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/core"
 )
 
 type tcpHandler struct {

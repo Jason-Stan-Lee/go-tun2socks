@@ -1,9 +1,10 @@
+//go:build stats
 // +build stats
 
 package main
 
 import (
-	"github.com/kiarsy/go-tun2socks/common/stats/session"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/stats/session"
 )
 
 func init() {

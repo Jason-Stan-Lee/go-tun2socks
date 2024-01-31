@@ -4,7 +4,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/kiarsy/go-tun2socks/core"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/core"
 )
 
 // An echo proxy, do nothing but echo back data to the sender, the handler was

@@ -1,3 +1,4 @@
+//go:build shadowsocks
 // +build shadowsocks
 
 package main
@@ -9,9 +10,9 @@ import (
 
 	sscore "github.com/shadowsocks/go-shadowsocks2/core"
 
-	"github.com/kiarsy/go-tun2socks/common/log"
-	"github.com/kiarsy/go-tun2socks/core"
-	"github.com/kiarsy/go-tun2socks/proxy/shadowsocks"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/log"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/core"
+	"github.com/Jason-Stan-Lee/go-tun2socks/v2/proxy/shadowsocks"
 )
 
 func init() {
