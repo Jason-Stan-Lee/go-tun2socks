@@ -9,9 +9,9 @@ import (
 	"time"
 
 	vcore "v2ray.com/core"
-	vsession "v2ray.com/core/common/session"
-	vsignal "v2ray.com/core/common/signal"
-	vtask "v2ray.com/core/common/task"
+	vsession "github.com/v2fly/v2ray-core/common/session"
+	vsignal "github.com/v2fly/v2ray-core/common/signal"
+	vtask "github.com/v2fly/v2ray-core/common/task"
 
 	"github.com/kiarsy/go-tun2socks/common/log"
 	"github.com/kiarsy/go-tun2socks/core"

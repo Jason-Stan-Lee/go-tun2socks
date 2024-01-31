@@ -3,12 +3,12 @@
 package v2ray
 
 import (
-	_ "v2ray.com/core/app/commander"
-	_ "v2ray.com/core/app/log/command"
-	_ "v2ray.com/core/app/proxyman/command"
-	_ "v2ray.com/core/app/stats/command"
+	_ "github.com/v2fly/v2ray-core/app/commander"
+	_ "github.com/v2fly/v2ray-core/app/log/command"
+	_ "github.com/v2fly/v2ray-core/app/proxyman/command"
+	_ "github.com/v2fly/v2ray-core/app/stats/command"
 
-	_ "v2ray.com/core/app/reverse"
+	_ "github.com/v2fly/v2ray-core/app/reverse"
 
-	_ "v2ray.com/core/transport/internet/domainsocket"
+	_ "github.com/v2fly/v2ray-core/transport/internet/domainsocket"
 )

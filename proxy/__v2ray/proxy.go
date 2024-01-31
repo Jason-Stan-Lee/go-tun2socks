@@ -10,9 +10,9 @@ import (
 
 	"github.com/miekg/dns"
 	vcore "v2ray.com/core"
-	vnet "v2ray.com/core/common/net"
-	vsession "v2ray.com/core/common/session"
-	vdns "v2ray.com/core/features/dns"
+	vnet "github.com/v2fly/v2ray-core/common/net"
+	vsession "github.com/v2fly/v2ray-core/common/session"
+	vdns "github.com/v2fly/v2ray-core/features/dns"
 
 	cdns "github.com/kiarsy/go-tun2socks/common/dns"
 	"github.com/kiarsy/go-tun2socks/core"
