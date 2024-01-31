@@ -9,8 +9,8 @@ import (
 	"sync"
 
 	"github.com/miekg/dns"
-	vcore "v2ray.com/core"
-	vnet "github.com/v2fly/v2ray-core/common/net"
+	vcore "github.com/v2fly/v2ray-core"
+	vnet "v2ray.com/core/common/net"
 	vsession "github.com/v2fly/v2ray-core/common/session"
 	vdns "github.com/v2fly/v2ray-core/features/dns"
 

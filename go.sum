@@ -51,5 +51,5 @@ google.golang.org/grpc v1.18.0 h1:IZl7mfBGfbhYx2p2rKRtYgDFw6SBz+kclmxYrCksPPA=
 google.golang.org/grpc v1.18.0/go.mod h1:6QZJwpn2B+Zp71q/5VxRsJ6NXXVCE5NRUHRo+f3cWCs=
 h12.io/socks v1.0.0/go.mod h1:MdYbo5/eB9ka7u5dzW2Qh0iSyJENwB3KI5H5ngenFGA=
 honnef.co/go/tools v0.0.0-20180728063816-88497007e858/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
-v2ray.com/core v4.19.1+incompatible h1:JWoYsYlCpFOJX5KcmSkAMHOqOjzux+wx/HtgMBkUvSg=
-v2ray.com/core v4.19.1+incompatible/go.mod h1:0yC/gG6Jd6qgp9PuaXuFE9uOi1xVYoDPexD1nlFms/w=
+github.com/v2fly/v2ray-core/ v4.19.1+incompatible h1:JWoYsYlCpFOJX5KcmSkAMHOqOjzux+wx/HtgMBkUvSg=
+github.com/v2fly/v2ray-core/ v4.19.1+incompatible/go.mod h1:0yC/gG6Jd6qgp9PuaXuFE9uOi1xVYoDPexD1nlFms/w=

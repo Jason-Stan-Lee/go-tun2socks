@@ -7,5 +7,5 @@ require (
 	github.com/songgao/water v0.0.0-20190725173103-fd331bda3f4b
 	golang.org/x/net v0.0.0-20191021144547-ec77196f6094
 	golang.org/x/sys v0.0.0-20191026070338-33540a1f6037
-	v2ray.com/core v4.19.1+incompatible
+	github.com/v2fly/v2ray-core/ v4.19.1+incompatible
 )

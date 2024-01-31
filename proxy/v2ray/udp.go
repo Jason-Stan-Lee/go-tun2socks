@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	vcore "v2ray.com/core"
+	vcore "github.com/v2fly/v2ray-core"
 	vsession "github.com/v2fly/v2ray-core/common/session"
 	vsignal "github.com/v2fly/v2ray-core/common/signal"
 	vtask "github.com/v2fly/v2ray-core/common/task"
