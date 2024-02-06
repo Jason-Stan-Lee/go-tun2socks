@@ -8,7 +8,7 @@ import (
 	"net"
 
 	vcore "github.com/v2fly/v2ray-core/v5"
-	vnet "v2ray.com/core/common/net"
+	vnet "github.com/v2fly/v2ray-core/v5/common/net"
 	vsession "github.com/v2fly/v2ray-core/v5/common/session"
 
 	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/log"
