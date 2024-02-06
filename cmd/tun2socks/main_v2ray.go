@@ -9,9 +9,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	vcore "github.com/v2fly/v2ray-core/v5"
-	vproxyman "github.com/v2fly/v2ray-core/v5/app/proxyman"
-	vbytespool "github.com/v2fly/v2ray-core/v5/common/bytespool"
+	vcore "github.com/v2fly/v2ray-core/v4"
+	vproxyman "github.com/v2fly/v2ray-core/v4/app/proxyman"
+	vbytespool "github.com/v2fly/v2ray-core/v4/common/bytespool"
 
 	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/log"
 	"github.com/Jason-Stan-Lee/go-tun2socks/v2/core"

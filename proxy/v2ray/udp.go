@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	vcore "github.com/v2fly/v2ray-core/v5"
-	vsession "github.com/v2fly/v2ray-core/v5/common/session"
-	vsignal "github.com/v2fly/v2ray-core/v5/common/signal"
-	vtask "github.com/v2fly/v2ray-core/v5/common/task"
+	vcore "github.com/v2fly/v2ray-core/v4"
+	vsession "github.com/v2fly/v2ray-core/v4/common/session"
+	vsignal "github.com/v2fly/v2ray-core/v4/common/signal"
+	vtask "github.com/v2fly/v2ray-core/v4/common/task"
 
 	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/log"
 	"github.com/Jason-Stan-Lee/go-tun2socks/v2/core"

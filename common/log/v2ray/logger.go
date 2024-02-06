@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	vlog "github.com/v2fly/v2ray-core/v5/common/log"
+	vlog "github.com/v2fly/v2ray-core/v4/common/log"
 
 	"github.com/Jason-Stan-Lee/go-tun2socks/v2/common/log"
 )
